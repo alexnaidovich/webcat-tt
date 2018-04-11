@@ -1,0 +1,586 @@
+@font-face {
+  font-family: Muller;
+  font-weight: bold;
+  src: url(../fonts/Muller-ExtraBold-DEMO.ttf);
+}
+
+@font-face {
+  font-family: Muller;
+  font-weight: 400;
+  src: url(../fonts/Muller-Thin-DEMO.ttf);
+}
+
+/* COMMON */
+
+html, body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: Muller, 'Century Gothic', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;  
+  text-align: center;  
+  color: #fff;
+}
+
+h3 {
+  color: #000;
+  font-size: 40px;
+}
+
+.push {
+  margin-bottom: 474px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  height: 140px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-image: url(../img/fx/header-gauss-blur.png);
+  background-repeat: repeat-x;
+}
+
+.header-container {
+  width: 1230px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header-left {
+  float: left;
+  margin: 60px 0 0 30px;
+}
+
+.header-left * {
+  display: inline-block; 
+}
+
+.header-left div:last-child {
+  vertical-align: top;
+  font-size: 20px;
+  line-height: 24px;
+  width: 233px;
+  margin-left: 32px;
+}
+
+.header-right {
+  float: right;
+  margin: 50px 8px 0 0;
+  text-align: right;
+}
+
+.header-left h2 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+
+.header-right div:first-child {
+  font-size: 28px;
+  line-height: 31px;
+  font-weight: bold;
+}
+
+.header-right div:first-child span {
+  font-weight: 400;
+}
+
+/* MAIN */
+
+main {
+  min-height: 100%;
+  margin-bottom: -474px;
+}
+
+/* home */
+
+.content-wrapper {
+  width: 1230px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.home {
+  height: 1080px;
+  background-color: #262626;
+  background-image: url(../img/sections/01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.home h1 {
+  position: relative;
+  z-index: 1;
+}
+
+.home h1::before {
+  content: url(../img/rectangles/rect2-orange.png);
+  position: absolute;
+  top: -33px;
+  left: -39px;
+  z-index: -1;
+}
+
+.home-content {
+  width: 830px;
+  margin: 0 auto;
+  padding-top: 315px;
+  color: #fff;
+}
+
+.home-guarantees {
+  margin: 80px auto 0;
+}
+
+.home-guarantees div {
+  display: inline-block;
+  width: 158px;
+  text-align: left;
+  padding-left: 45px;
+  font-size: 21px;
+}
+
+.home-guarantees div:first-child {
+  text-align: right;
+  width: 312px;
+  padding-right: 32px;
+}
+
+.home-guarantees div:last-child {
+  width: 175px;
+  text-align: left;
+  padding-left: 25px;
+  position: relative;
+  left: 20px;
+}
+
+.home-guarantees div:nth-child(2) {
+  position: relative;
+  left: 8px;
+}
+
+.yellow-button {
+  display: block;
+  width: 422px;
+  height: 63px;
+  margin: 80px auto 0;
+  background-color: #ffba00;
+  color: #fff;
+  transition: .4s ease-in-out;
+  font-family: Muller;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.yellow-button:hover {
+  box-shadow: 0px 0px 21px rgba(255, 186, 0, .3);
+}
+
+.yellow-button:active {
+  box-shadow: 0px 0px 26px rgba(255, 186, 0, .9);
+}
+
+.home-assortment {
+  width: 970px;
+  height: 178px;
+  margin: 106px auto 0;
+}
+
+.home-assortment div {
+  display: inline-block;
+  width: 281px;
+  height: 100%;
+  position: relative;
+  padding-top: 94px;
+  vertical-align: top;
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 75px;
+  z-index: 1;
+}
+
+.home-assortment div::after {
+  content: url(../img/factory.png);
+  position: absolute;
+  top: 33px;
+}
+
+.home-assortment div:first-child {
+  width: 284px;
+  margin-right: 60px;
+}
+
+.home-assortment div:first-child::after {
+  content: url(../img/skyscraper1.png);
+}
+
+.home-assortment div:last-child {
+  width: 247px;
+  margin-left: 50px;
+}
+
+.home-assortment div:last-child::after {
+  content: url(../img/house1.png);
+}
+
+.home-assortment div::before {
+  content: url(../img/rectangles/rect1.png);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+/* projects */
+
+.projects {
+  height: calc(822px - 110px);
+  padding-top: 110px;
+}
+
+.projects .content-wrapper {
+  width: 970px; 
+  padding-left: 4px;
+}
+
+.projects h3 {
+  display: block;
+  margin: 0px auto 65px;
+  max-width: max-content;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.projects h3::before {
+  content: url(../img/rectangles/rect3-orange.png);
+  position: absolute;
+  top: -28px;
+  left: -53px;
+  z-index: -1;
+}
+
+.projects-carousel {
+  width: 834px;
+  max-width: 834px;
+  height: 491px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* consult */
+
+.consult {
+  height: 828px;
+  background-color: #262626;
+  background-image: url(../img/sections/03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.consult .content-wrapper {
+  width: 770px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.consult h3 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.consult form, .modal form {
+  width: 370px;
+  height: 253px;
+  display: block;
+  margin: 0 auto;
+}
+
+.consult input, .modal input {
+  font-family: Muller, 'Century Gothic', sans-serif;
+  font-size: 26px;
+  width: 100%;
+  height: 63px;
+  margin-bottom: 21px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.consult input:last-child, .modal input:last-child {
+  margin-bottom: 32px;
+}
+
+.consult input:placeholder-shown, .modal input:placeholder-shown {
+  color: #262626;
+}
+
+.consult .yellow-button, .modal .yellow-button {
+  width: 100%;
+  height: 74px;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+/* extract */
+
+.extract {
+  height: 661px;
+}
+
+.extract .content-wrapper {
+  width: 770px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.extract-content {
+  width: 669px;
+  margin: 0px auto 0;
+  background-image: url(../img/ellipsies.png);
+  height: 450px;
+  position: relative;
+  top: 30px;
+}
+
+.extract-content--shampoo {
+  width: 170px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 80px;
+}
+
+.green-circle {
+  background-color: #007f3a;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.green-circle::before, .green-circle::after {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 16px;
+  color: #000;
+  position: absolute;
+  top: 2px;
+  display: block;
+  min-width: 128px;
+}
+
+.green-circle::after {
+  left: 35px;
+  text-align: left;
+}
+
+.green-circle::before {
+  right: 35px;
+  text-align: right;
+}
+
+.circle1 {
+  top: 97px;
+  left: 190px;
+}
+.circle1::before {
+  content: "Витамины B, C";
+}
+
+.circle2 {
+  top: 148px;
+  left: 167px;
+}
+.circle2::before {
+  content: "Каротин";
+}
+
+.circle3 {
+  top: 205px;
+  left: 162px;
+}
+.circle3::before {
+  content: "Соли калия";
+}
+
+.circle4 {
+  top: 262px;
+  left: 178px;
+}
+.circle4::before {
+  content: "Фосфор";
+}
+
+.circle5 {
+  top: 311px;
+  left: 214px;
+}
+.circle5::before {
+  content: "Марганец";
+}
+
+.circle6 {
+  top: 346px;
+  left: 269px;
+}
+.circle6::before {
+  content: "Натрий";
+}
+
+.circle7 {
+  top: 97px;
+  right: 186px;
+}
+.circle7::after {
+  content: "Кремний";
+}
+
+.circle8 {
+  top: 148px;
+  right: 163px;
+}
+.circle8::after {
+  content: "Медь";
+}
+
+.circle9 {
+  top: 205px;
+  right: 158px;
+}
+.circle9::after {
+  content: "Молибден";
+}
+
+.circle10 {
+  top: 262px;
+  right: 174px;
+}
+.circle10::after {
+  content: "Селен";
+}
+
+.circle11 {
+  top: 311px;
+  right: 210px;
+}
+.circle11::after {
+  content: "Холин";
+}
+
+.circle12 {
+  top: 346px;
+  right: 265px;
+}
+.circle12::after {
+  content: "Метионин";
+}
+
+.extract ul {
+  list-style: none;
+  display: none;
+}
+
+/* FOOTER */
+
+footer {
+  height: 474px;
+  width: 100%;
+}
+
+/* footer-map */
+
+.footer-map {
+  width: 100%;
+  height: 394px;
+  background-image: url(../img/footer-map.jpg);
+  background-position: bottom;
+}
+
+footer .content-wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.footer-contacts {
+  width: 470px;
+  height: 312px;
+  background-color: #262626;
+  float: left;
+  padding: 48px 0 0 32px;
+  box-sizing: border-box;
+  margin-top: 41px;
+}
+
+footer h3 {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 44px;
+}
+
+footer .footer-contacts p {
+  color: #fff;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 22px;
+}
+
+footer .footer-contacts p:last-child {
+  font-size: 25px;
+}
+
+footer .footer-contacts p:nth-child(3) {
+  margin-bottom: 0;
+}
+
+footer b {
+  font-weight: bold;
+}
+
+.footer-bottom .content-wrapper div {
+  height: 48px;
+  vertical-align: middle;
+  padding-top: 32px;
+}
+
+.footer-inn {
+  float: left;
+}
+
+.footer-secret-link {
+  float: right;
+}

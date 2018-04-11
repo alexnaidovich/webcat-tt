@@ -1,0 +1,84 @@
+.car-wr {
+  overflow: hidden;
+  max-width: 834px;
+}
+
+.car-slider {
+  width: 9999px;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.car-slider div {
+  float: left;
+  height: 491px;
+  width: 1384px;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.car-slider img {
+  max-height: 100%;
+  min-width: 834px;
+  max-width: 834px;
+  object-fit: none;
+  display: block;
+}
+
+.car-push {
+  width: 550px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.car-controls {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.car-controls a {
+  position: absolute;
+  top: calc(50% - 17px);
+}
+
+.car-controls a:first-child {
+  left: -67px;
+}
+
+.car-controls a:last-child {
+  right: -67px;
+}
+
+.car-scroller {
+  position: absolute;
+  height: 10px;
+  margin: 0 auto;
+  bottom: -25px;
+  box-sizing: border-box;
+  left: calc(50% - 30px);
+}
+
+.car-scroller span {
+  width: 6px;
+  height: 6px;
+  background-color: #676767;
+  margin-right: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-bottom: 2px;
+}
+
+.car-scroller span:last-child {
+  margin-right: 0;
+}
+
+.car-scroller .active {
+  width: 10px;
+  height: 10px;
+  background-color: #262626;
+  margin-bottom: 0;
+}

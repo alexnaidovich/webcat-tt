@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Webcat Test Task</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/carousel.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/phone.js"></script>
+</head>
+<body>
+  
+  <header>
+    .<!-- begin header container -->
+    <div class="header-container">
+      <div class="header-left">
+        <h2>NAME</h2>
+        <div class="header-desc">комплексное развитие объектов недвижимости</div>
+      </div>
+      <div class="header-right">
+        <div class="header-phone"><span>+7 123</span> 456-78-90</div>
+        <div class="header-email">emailadress@mail.ru</div>
+      </div>
+    </div>
+    <!-- end header container -->
+  </header>
+  <div class="wrapper">
+    <main>
+     
+      <!-- begin home section -->
+      <section class="home">
+      	
+        <div class="content-wrapper">
+         
+          <div class="content home-content">
+            <h1>Строительные и ремонтные работы в Москве и МО</h1>
+            <div class="home-guarantees">
+              <div>гарантируем сроки и качество</div>
+              <div>опыт 10 лет</div>
+              <div>официально</div>
+            </div>
+            <button class="yellow-button" onclick="modal()" type="button" id="cost">получить расчет стоимости</button>
+            <div class="home-assortment">
+              <div><p>Административные помещения</p></div>
+              <div><p>Производственные помещения</p></div>
+              <div><p>Коттеджи, дома, квартиры</p></div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </section>
+      <!-- end home section -->
+      
+      <!-- begin projects section -->
+      <section class="projects">
+      	
+      	<!-- begin content-wrapper -->
+      	<div class="content-wrapper">
+      	  
+      		<h3>реализованные проекты</h3>
+      		
+      		<div class="projects-carousel" id="js-carousel">
+      		  <div class="car-wr" id="js-car-wr">
+             
+      		    <div class="car-slider" id="js-car-slider">
+      		      <div class="car-item js-car-item js-car-item1">
+                    <img src="img/carousel-item1.jpg" alt="carousel item">
+                    <div class="car-push"></div>
+                  </div>
+      		                      
+      		      <div class="car-item js-car-item js-car-item2">
+                    <img src="img/carousel-item1.jpg" alt="carousel item">
+                    <div class="car-push"></div>
+                  </div>
+      		                      
+      		      <div class="car-item js-car-item js-car-item3">
+                    <img src="img/carousel-item1.jpg" alt="carousel item">
+                    <div class="car-push"></div>
+                  </div>
+      		                      
+      		      <div class="car-item js-car-item js-car-item4">
+                    <img src="img/carousel-item1.jpg" alt="carousel item">
+                    <div class="car-push"></div>
+                  </div>
+      		                      
+      		      <div class="car-item js-car-item js-car-item5">
+                    <img src="img/carousel-item1.jpg" alt="carousel item">
+                    <div class="car-push"></div>
+                  </div>
+      		    </div>
+                
+      		  </div>
+      		  
+      		  <div class="car-controls" id="car-controls">
+                <a href="#"><img src="img/carousel-arrow-left.png" alt="left"></a>
+                <a href="#"><img src="img/carousel-arrow-right.png" alt="right"></a>
+      		  </div>
+      		  
+      		  <div class="car-scroller" id="js-car-scroller">
+      		    <span class="car-dots active js-car-dots"></span>
+      		    <span class="car-dots js-car-dots"></span>
+      		    <span class="car-dots js-car-dots"></span>
+      		    <span class="car-dots js-car-dots"></span>
+      		    <span class="car-dots js-car-dots"></span>
+      		  </div>
+      		</div>
+      		
+      		<script src="js/Carousel.js"></script>
+      		<script>          
+              const carousel = new Carousel('#js-carousel');
+              carousel.init();
+              carousel.autoslide();
+            </script>
+      		
+      	</div>
+      	<!-- end content-wrapper -->
+      	
+      </section>
+      <!-- end projects section -->
+      
+      <!-- begin consult section -->
+      <section class="consult">
+      
+        <!-- begin content-wrapper -->
+        <div class="content-wrapper">
+          
+        	<h3>Заполните форму и получите бесплатную консультацию нашего специалиста!</h3>
+        	
+        	<form action="#">
+        	  <label><input type="text" placeholder="Ваше имя"></label>
+        	  <label><input type="text" placeholder="Ваш телефон" id="phone"></label>
+        	  <button class="yellow-button">получить бесплатную консультацию</button>
+        	</form>
+        	
+        </div>
+        <!-- end content-wrapper -->
+      	
+      </section>
+      <!-- end consult section -->
+      
+      <!-- begin extract section -->
+      <section class="extract">
+      
+        <!-- begin content-wrapper -->
+        <div class="content-wrapper">
+          
+          <h5>Экстракт содержит полезные вещества:</h5>
+          <div class="extract-content">
+            <div class="extract-content--shampoo">
+              <img src="img/shampoo-and-tonic.png" alt="shampoo and tonic">
+            </div>
+            
+            <div class="green-circle circle1"></div>
+            <div class="green-circle circle2"></div>
+            <div class="green-circle circle3"></div>
+            <div class="green-circle circle4"></div>
+            <div class="green-circle circle5"></div>
+            <div class="green-circle circle6"></div>
+            <div class="green-circle circle7"></div>
+            <div class="green-circle circle8"></div>
+            <div class="green-circle circle9"></div>
+            <div class="green-circle circle10"></div>
+            <div class="green-circle circle11"></div>
+            <div class="green-circle circle12"></div>
+            
+            <ul>
+              <li>Витамины B, C</li>
+              <li>Каротин</li>
+              <li>Соли калия</li>
+              <li>Фосфор</li>
+              <li>Марганец</li>
+              <li>Натрий</li>
+              <li>Кремний</li>
+              <li>Медь</li>
+              <li>Молибден</li>
+              <li>Селен</li>
+              <li>Холин/li>
+              <li>Метионин</li>
+            </ul>
+            
+          </div>
+        	
+        </div>
+        <!-- end content-wrapper -->
+      	
+      </section>
+      <!-- end extract section -->
+      
+      <div class="push"></div>
+    </main>
+  </div>
+  <footer>
+    
+    <div class="footer-map">
+      
+      <!-- begin content-wrapper -->
+      <div class="content-wrapper">
+        
+      	<div class="footer-contacts">
+      	  <h3>ООО «NAME»</h3>
+      	  <p>г. Москва, Новая Басманная 12, строение 2, офис 316</p>
+      	  <p>+7 123 <b>456-78-90</b></p>
+      	  <p>+7 123 <b>456-78-90</b></p>
+      	  <p>emailadress@mail.ru</p>
+      	</div>
+      	
+      </div>
+      <!-- end content-wrapper -->
+      
+    </div>
+    <div class="footer-bottom">
+      <!-- begin content-wrapper -->
+      <div class="content-wrapper">
+        
+      	<div class="footer-inn">ИНН 7718169817</div>
+      	<div class="footer-secret-link">Тестовое задание для <a href="http://webcat.by/" target="_blank">WebCat</a>. Разработка - <a href="https://alexnaidovich.github.io/pf">Александр Найдович</a>.</div>
+      	
+      </div>
+      <!-- end content-wrapper -->
+    </div>
+    
+  </footer>
+  
+  
+  
+</body>
+</html>
