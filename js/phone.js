@@ -31,4 +31,9 @@ window.addEventListener("DOMContentLoaded", function() {
   input.addEventListener("input", mask, false);
   input.addEventListener("focus", mask, false);
   input.addEventListener("blur", mask, false);
+  
+  const input2 = document.querySelector("#phone2");
+  input2.addEventListener("input", mask, false);
+  input2.addEventListener("focus", mask, false);
+  input2.addEventListener("blur", mask, false);
 });

@@ -12,7 +12,7 @@
 <body>
   
   <header>
-    .<!-- begin header container -->
+    <!-- begin header container -->
     <div class="header-container">
       <div class="header-left">
         <h2>NAME</h2>
@@ -223,7 +223,32 @@
     
   </footer>
   
+  <div class="modal" id="modal">
+    
+    <div class="modal-back" id="modal-back"></div>
+    <div class="modal-body" id="modal-body">
+      
+      <div class="close-modal" id="close-modal"><span></span><span></span></div>
+      
+      <!-- begin content-wrapper -->
+        <div class="content-wrapper">
+          
+        	<h3>Заполните форму и получите бесплатную консультацию нашего специалиста!</h3>
+        	
+        	<form action="#">
+        	  <label><input type="text" placeholder="Ваше имя"></label>
+        	  <label><input type="text" placeholder="Ваш телефон" id="phone2"></label>
+        	  <button class="yellow-button">получить бесплатную консультацию</button>
+        	</form>
+        	
+        </div>
+        <!-- end content-wrapper -->
+      
+    </div>
+    
+  </div>
   
+  <script src="js/Modal.js"></script>
   
 </body>
 </html>
