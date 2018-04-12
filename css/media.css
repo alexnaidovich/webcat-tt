@@ -1,0 +1,107 @@
+@media screen and (max-width: 768px) {
+  
+  html, body {
+    min-width: 640px;
+    max-width: 100%;
+  }
+  
+  .header-container {
+    width: 100%;
+  }
+  
+  .header-right {
+    margin: 60px 20px 0 0;
+  }
+  
+  .content-wrapper {
+    width: 90%;
+  }
+  
+  .home-content {
+    width: 100%;
+    padding-top: 230px;
+  }
+  
+  .home-guarantees {
+    margin: 50px auto 30px;
+    max-width: 88%;
+  }
+  
+  .home-guarantees div {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: max-content;
+  }
+  
+  .home-assortment {
+    width: 100%;
+  }
+  
+  .home-assortment div {
+    width: 32%;
+  }
+  
+  .home-assortment div:first-child, .home-assortment div:last-child {
+    margin: 0;
+    width: 32%;
+  }
+  
+  .projects .content-wrapper {
+    width: 100%; 
+    padding-left: 0;
+  }
+  
+  .projects-carousel {
+    width: 100%;
+  }
+  
+  .car-wr {
+    max-width: 100%;
+  }
+  
+  .car-controls a {
+    top: calc(100% + 43px);
+  }
+  
+  .car-controls a:first-child {
+    left: 67px;
+  }
+
+  .car-controls a:last-child {
+    right: 67px;
+  }
+  
+  .car-scroller {
+    bottom: -63px;
+    left: calc(50% - ((64px + 30px) / 2));
+  }
+  
+  .car-scroller span {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .car-scroller .active {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .modal-body .content-wrapper {
+    width: 500px;
+  }
+  
+  .modal-body {
+    width: 600px;
+    height: 600px;
+  }
+  
+  .modal-body-visible {
+    left: calc(50% - 300px);
+  }
+  
+  .modal-body h3 {
+    font-size: 38px;
+  }
+  
+  
+}
