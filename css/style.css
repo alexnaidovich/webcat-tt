@@ -513,6 +513,28 @@ main {
 .extract ul {
   list-style: none;
   display: none;
+  margin-top: 30px;
+  margin-left: 25px;
+  font-family: 'Century Gothic', sans-serif;
+  color: #000;
+}
+
+.extract ul li {
+  margin-bottom: 8px;
+  display: block;
+  position: relative;
+}
+
+.extract ul li::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -4px;
+  left: -35px;
+  border-radius: 50%;
+  background-color: #007f3a;
 }
 
 /* FOOTER */
