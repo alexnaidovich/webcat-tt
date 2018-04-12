@@ -103,5 +103,8 @@
     font-size: 38px;
   }
   
+  .content-wrapper, section .content-wrapper {
+    max-width: 100%;
+  }
   
 }
