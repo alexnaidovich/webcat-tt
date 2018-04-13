@@ -61,6 +61,11 @@ button {
   cursor: pointer;
 }
 
+header a, .footer-contacts a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* HEADER */
 
 header {
@@ -688,6 +693,7 @@ footer b {
   top: 15px;
   right: 15px;
   cursor: pointer;
+  z-index: 99999;
 }
 
 .close-modal span {
