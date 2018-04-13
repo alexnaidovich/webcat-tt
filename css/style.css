@@ -711,6 +711,10 @@ footer b {
   top: 5px;
 }
 
+.modal-back-hidden {
+  animation: hide-opace .5s ease-in-out;
+}
+
 @keyframes opace {
   0% {
     opacity: 0;
@@ -726,5 +730,23 @@ footer b {
   
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes hide-opace {
+  0% {
+    opacity: 1;
+  }
+  
+  60% {
+    opacity: .8;
+  }
+  
+  95% {
+    opacity: .4;
+  }
+  
+  100% {
+    opacity: 0;
   }
 }

@@ -14,24 +14,30 @@ const modal = () => {
   Modal.classList.add('modal-visible');
   modalBack.classList.add('modal-back-visible');
   modalBody.classList.add('modal-body-visible');
-  document.body.style.overflow = 'hidden';
+  document.body.style.overflowY = 'hidden';
   
   let close = Modal.querySelector('#close-modal');
   
   close.addEventListener('click', e => {
     e.preventDefault();
-    Modal.classList.remove('modal-visible');
     modalBack.classList.remove('modal-back-visible');
+    modalBack.classList.add('modal-back-hidden');
     modalBody.classList.remove('modal-body-visible');
-    document.body.style.overflow = 'scroll';
+    setTimeout(() => {
+      Modal.classList.remove('modal-visible');
+    }, 500);
+    document.body.style.overflowY = 'scroll';
   });
   
   modalBack.addEventListener('click', e => {
     e.preventDefault();
-    Modal.classList.remove('modal-visible');
     modalBack.classList.remove('modal-back-visible');
+    modalBack.classList.add('modal-back-hidden');
     modalBody.classList.remove('modal-body-visible');
-    document.body.style.overflow = 'scroll';
+    setTimeout(() => {
+      Modal.classList.remove('modal-visible');
+    }, 500);
+    document.body.style.overflowY = 'scroll';
   });  
 }
 
