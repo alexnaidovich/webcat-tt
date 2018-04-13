@@ -49,7 +49,7 @@
 @media screen and (max-width: 768px) {
   
   html, body {
-    min-width: 640px;
+    min-width: 475px;
   } 
   
   .content-wrapper {
@@ -130,6 +130,66 @@
   
 }
 
+@media screen and (max-width: 660px) {
+  
+  .header-desc {
+    display: none;
+  }
+  
+  .home-guarantees {
+    margin: 30px auto 30px;
+  }
+  
+  .home-guarantees div {
+    margin: 0 auto;
+    max-width: max-content;
+    display: block;
+    font-size: 16px;
+  }
+  
+  .home-guarantees div:nth-child(1), .home-guarantees div:nth-child(2), .home-guarantees div:nth-child(3) {
+    padding: 3px 0;
+    position: static;
+  }
+  
+  .home-assortment {
+    margin-left: -15px;
+  }  
+  
+  .modal-body {
+    width: 300px;
+    height: 400px;
+    top: 25px;
+  }
+  
+  .modal-body-visible {
+    left: calc(50% - 150px);
+  }
+  
+  .modal-body .content-wrapper {
+    width: 260px;
+  }
+  
+  .modal-body h3 {
+    font-size: 20px;
+  }
+  
+  .modal input:last-child {
+    margin-bottom: 10px;
+  } 
+  
+  .modal-body form {
+    margin-top: 20px;
+    width: 90%;
+  }
+  
+  .modal-body input {
+    height: 32px;
+    font-size: 20px;
+  }
+    
+}
+
 @media screen and (max-width: 475px) {
   
   html, body {
@@ -158,11 +218,7 @@
     font-size: 15px;
     line-height: 16px;
     font-weight: bold;
-  }
-  
-  .header-desc {
-    display: none;
-  }
+  }  
   
   .home-content {
     padding-top: 115px;
@@ -172,21 +228,6 @@
     font-size: 27px;
   }
   
-  .home-guarantees {
-    margin: 30px auto 30px;
-  }
-  
-  .home-guarantees div {
-    margin: 0 auto;
-    max-width: max-content;
-    display: block;
-    font-size: 16px;
-  }
-  
-  .home-guarantees div:nth-child(1), .home-guarantees div:nth-child(2), .home-guarantees div:nth-child(3) {
-    padding: 3px 0;
-    position: static;
-  }
   
   .yellow-button {
     width: 85%;
@@ -315,28 +356,6 @@
   .footer-bottom .content-wrapper div:last-child {
     height: 48px;
     padding-top: 0px;
-  }
-  
-  .modal-body {
-    width: 300px;
-    height: 400px;
-    top: 25px;
-  }
-  
-  .modal-body-visible {
-    left: calc(50% - 150px);
-  }
-  
-  .modal-body .content-wrapper {
-    width: 260px;
-  }
-  
-  .modal-body h3 {
-    font-size: 20px;
-  }
-  
-  .modal input:last-child {
-    margin-bottom: 10px;
   }
   
 }

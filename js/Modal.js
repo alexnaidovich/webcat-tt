@@ -1,6 +1,7 @@
 const Modal = document.querySelector('#modal');
 const modalBack = Modal.querySelector('#modal-back');
 const modalBody = Modal.querySelector('#modal-body');
+const wrapr = document.querySelector('#wrapper');
 
 const costButton = document.querySelector('#cost');
 

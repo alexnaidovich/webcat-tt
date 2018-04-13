@@ -18,7 +18,7 @@ class Carousel {
   init() {
     this.controlsRight.addEventListener('click', (e) => {
       e.preventDefault();
-      this.move()
+      this.move();
     });
     this.controlsLeft.addEventListener('click', (e) => {
       e.preventDefault();
