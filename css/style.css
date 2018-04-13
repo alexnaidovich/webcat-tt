@@ -63,6 +63,9 @@ button {
 
 header a, .footer-contacts a {
   color: inherit;
+  font-size: inherit !important;
+  margin: inherit !important;
+  padding: inherit !important;
   text-decoration: none;
 }
 
@@ -569,7 +572,7 @@ footer .content-wrapper {
   height: 312px;
   background-color: #262626;
   float: left;
-  padding: 48px 0 0 32px;
+  padding: 48px 32px 0 32px;
   box-sizing: border-box;
   margin-top: 41px;
 }
@@ -695,10 +698,6 @@ footer b {
   right: 15px;
   cursor: pointer;
   z-index: 99999;
-}
-
-.modal-body .close-modal:active {
-  background-color: transparent;
 }
 
 .close-modal span {
