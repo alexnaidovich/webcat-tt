@@ -1,3 +1,7 @@
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 @media screen and (max-width: 1024px) {
   
   html, body {
@@ -106,6 +110,11 @@
     height: 14px;
   }
   
+  .car-wr img {
+    object-fit: contain;
+    min-width: calc(100% - 550px);
+  }
+  
   .modal-body .content-wrapper {
     width: 500px;
   }
@@ -155,6 +164,11 @@
   .home-assortment {
     margin-left: -15px;
   }  
+  
+  .car-wr img {
+    object-fit: none;
+    max-width: calc(100% - 550px);
+  }
   
   .modal-body {
     width: 300px;
