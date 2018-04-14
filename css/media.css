@@ -47,6 +47,41 @@
   .home-assortment {
     margin-left: 27px;
   }
+    
+}
+
+@media screen and (max-width: 985px) {
+  
+  .car-controls a {
+    top: calc(100% + 43px);
+  }
+  
+  .car-controls a:first-child {
+    left: 67px;
+  }
+
+  .car-controls a:last-child {
+    right: 67px;
+  }
+  
+  .car-scroller {
+    bottom: -63px;
+    left: calc(50% - ((52px + 30px) / 2));
+  }
+  
+  .car-scroller span {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .car-scroller .active {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .js-car-item {
+    margin-right: -7px;
+  }
   
 }
 
@@ -83,37 +118,13 @@
     max-width: 100%;
   }
   
-  .car-controls a {
-    top: calc(100% + 43px);
-  }
-  
-  .car-controls a:first-child {
-    left: 67px;
-  }
+/*
 
-  .car-controls a:last-child {
-    right: 67px;
-  }
-  
-  .car-scroller {
-    bottom: -63px;
-    left: calc(50% - ((52px + 30px) / 2));
-  }
-  
-  .car-scroller span {
-    width: 10px;
-    height: 10px;
-  }
-  
-  .car-scroller .active {
-    width: 14px;
-    height: 14px;
-  }
-  
   .car-wr img {
     object-fit: contain;
     min-width: calc(100% - 550px);
   }
+*/
   
   .modal-body .content-wrapper {
     width: 500px;
@@ -165,10 +176,12 @@
     margin-left: -15px;
   }  
   
+/*
   .car-wr img {
     object-fit: none;
     max-width: calc(100% - 550px);
   }
+*/
   
   .modal-body {
     width: 300px;
@@ -264,7 +277,7 @@
   }  
   
   .projects {
-    height: calc(622px - 50px);
+    height: calc(452px - 50px);
     padding-top: 50px;
   }
   
@@ -276,7 +289,7 @@
   }
   
   .projects-carousel, .car-slider div {
-    height: 350px;
+    height: 180px;
   }
   
   .consult {
